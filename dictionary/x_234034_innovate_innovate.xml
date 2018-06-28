@@ -10,6 +10,7 @@
                 <element label="Team Building" sequence="2" value="team"/>
             </choice>
         </element>
+        <element label="Idea implemented" max_length="40" name="u_implemented" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Short description" mandatory="true" max_length="125" name="u_short_description" type="string"/>
     </element>
 </database>
